@@ -27,7 +27,7 @@ while True:
                         new_bal=old_bal+credit_amount
                         data[accno][2]=new_bal
                         print('Credited Succesfully')
-                        print('the new amount is :',new_bal)
+                        print('the new amount is : ',new_bal)
                     elif ch == 2:
                         debit_amount = int(input("Enter the amount:"))
                         bal=data[accno][2]
